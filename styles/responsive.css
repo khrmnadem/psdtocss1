@@ -1,0 +1,92 @@
+@media screen and (max-width: 977px) {
+    header{
+        height: 600px;
+    }
+    .container{
+    	width: 100%;
+    }
+    ul.menu{
+        display:none;
+    }
+    .btnMenu977{
+        display:block;
+    }
+    .headerContent{
+        height: auto;
+        margin-top: 25px;
+    }
+    .headerContent>h1{
+        font-size:48px;
+    }
+    .btnHeader{
+        margin-top: 50px;
+    }
+    .featuresItem{
+        width: 50%;  
+    }
+    .works>li>.worksItem{
+        float:left;
+        margin: auto;
+        width: 50%;   
+    }
+    .teamItem{
+        width: 46%;
+    }
+    .sliderContent>p{
+        font-size:16px;
+    }
+    .sliderContent>h3{
+        font-size:11px;
+    }
+    .footerItem{
+        width: 100%;
+    }
+    .footerItem>.teamSocial{
+        max-width: 140px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 977px){
+    .menu977{
+        display:none;
+    }
+    .works>li>.worksItem{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 480px){
+    header{
+        height: 500px;
+    }
+    .headerContent>h1{
+        font-size:24px;
+    }
+    .headerContent>p{
+        font-size:13px;
+    }
+    .featuresItem{
+        width: 100%;
+    }
+    .works>li>.worksItem{
+        float:left;
+        margin: auto;
+        width: 100%;   
+    }
+    .teamItem{
+        width: 94%;
+    }
+    ul.sliderTesti>li>img{
+        float:top;
+        width: 100%;
+    }
+    .sliderContent{
+        width: 100%!important;
+        padding-bottom:30px;
+    }
+    #downloadCon>h1{
+        font-size: 30px;
+    }
+    #downloadCon>h2{
+        font-size:13px;
+    }
+}   
